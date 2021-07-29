@@ -1,0 +1,22 @@
+server:
+  port: 8082
+  servlet.context-path: /multi-datasources
+spring:
+  datasource:
+    master:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3306/ufo
+      username: root
+      password: 123456@A
+    tr:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3306/tr
+      username: root
+      password: 123456@A
+    ind:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3306/ind
+      username: root
+      password: 123456@A
+  jpa:
+    show-sql: true
