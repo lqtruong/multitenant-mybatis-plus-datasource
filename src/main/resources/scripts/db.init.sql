@@ -14,5 +14,5 @@ insert into `users`
     id, email, username, tenant, createdAt, modifiedAt
 ) values
 (1, 'truong@mail.com', 'truong', 'vn', sysdate(), sysdate())
-,(2, 'charles@mail.com', 'charles', 'tr', sysdate(), sysdate())
+,(2, 'peter@mail.com', 'peter', 'tr', sysdate(), sysdate())
 ;
